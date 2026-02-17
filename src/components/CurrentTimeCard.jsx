@@ -13,7 +13,7 @@ const CurrentTimeCard = ({ prayerTimes, nextPrayer, timeToNextPrayer }) => {
             className="w-full max-w-4xl mx-auto mt-8 px-4"
         >
             <div className="relative bg-gradient-to-br from-ramadan-accent/80 to-ramadan-dark/80 backdrop-blur-lg border border-white/10 rounded-3xl p-8 md:p-12 text-center shadow-2xl overflow-hidden">
-                {/* Decorative Elements */}
+
                 <div className="absolute top-0 left-0 w-32 h-32 bg-ramadan-gold/20 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
                 <div className="absolute bottom-0 right-0 w-48 h-48 bg-ramadan-light/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
 

@@ -29,9 +29,7 @@ const MonthlyTable = ({ data }) => {
                             const gregorianDate = day.date.gregorian;
                             const timings = day.timings;
 
-                            // Only show rows starting from today or show all? 
-                            // Usually Imsakiye shows the whole month.
-                            // Let's highlight today.
+
 
                             return (
                                 <motion.tr

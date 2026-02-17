@@ -19,7 +19,7 @@ export const usePrayerTimes = (city) => {
                     params: {
                         city: city,
                         country: 'Turkey',
-                        method: 13, // Diyanet
+                        method: 13,
                         month: month,
                         year: year
                     }

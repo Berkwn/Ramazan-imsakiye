@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-ramadan-dark text-white min-h-screen font-sans;
+    background-image: radial-gradient(circle at top center, #15325b 0%, #0B2447 100%);
+  }
+}
